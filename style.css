@@ -4,7 +4,7 @@ color:#FF6600;
 text-align:center;
 text-align:justify;
 text-position: bottom;
-padding:10px;
+padding:6px;
 position:relative;
 font-family:"Kristen ITC"
 }
@@ -12,7 +12,7 @@ font-family:"Kristen ITC"
 #menu ul {
 list-style:none;
 margin:0px;
-padding:10px;
+padding:6px;
 overflow:auto;
 background-image:url('images/black dew wallpaper.jpg');
 background-repeat:repeat-x
@@ -21,7 +21,7 @@ background-repeat:repeat-x
 #menu li {
 font-family:"Kristen ITC";
 float:left;
-padding-left:10px;
+padding-left:20px;
 }
 
 #menu li a {
@@ -38,18 +38,18 @@ form {
 	font-family:arial;
 	background-image:url('images/black dew wallpaper.jpg');
 	background-repeat:repeat-x;
-	padding:2% 0 3% 0;
+	padding:1% 0 2% 2%;
 }
 
 table {
-margin-bottom:10px;
+margin-bottom:2px;
 }
 footer {
 	background-color:black;
 	color:#FF6600;
 	text-align:center;
 	position:relative;
-	padding:3%;
+	padding:2%;
 	clear:both;
 }
 
