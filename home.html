@@ -4,12 +4,17 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <title>Untitled 1</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
 
 <body>
+<div class="container">
+<div id="header">
 <h1>
-Coding Food Delivery
+<img src="images/Logo CFD lengkap.jpg"/>
+Coding Food Delivery &copy;
 </h1>
+</div>
 
 <div id="menu">
 <ul>
@@ -18,14 +23,75 @@ Coding Food Delivery
   </li>
   
   <li>
-  <a href="menu.html">Recipe</a>
+  <a href="menu.html">Menu</a>
   </li>
   
   <li>
-  <a href="aboutus.html">Contact</a>
+  <a href="aboutus.html">About Us</a>
   </li>
 </ul>
 </div>
+
+<div>
+<form>
+<table style="color:black">
+
+<tr>
+<td> Name:
+</td>
+<td> <input type="text"/>
+</td>
+</tr>
+
+<tr>
+<td> Password:
+</td>
+<td> <input name="Password1" type="password" />
+</td>
+</tr>
+</table>
+
+<a href="menu.html">
+<button style="background-color:#99CCCC"> 
+<font color="gray">LOG IN</font>
+</button>
+
+<a href="menu.html">
+</a>
+<button style="background-color:#99CCCC"> 
+<font color="gray">SIGN UP</font>
+</button>
+
+</form>
+</div>
+
+
+<div class="w3-content w3-section" style="max-width:500px">
+<style>
+.mySlides {display:none;}
+</style>
+
+<img class="slides" src="images/sop buntut.jpg"/>
+<img class="slides" src="images/nasi ayam bakar spesial.jpg"/>
+<img class="slides" src="images/burger.jpg"/>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000);    
+	}
+</script>
 
 
 <footer>
@@ -46,7 +112,7 @@ Copyright &copy; Coding Food Delivery &trade;
 </a>
 
 </footer>
-
+</div>
 </body>
 
 </html>
