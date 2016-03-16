@@ -2,8 +2,10 @@
 background-color:black; 
 color:yellow;
 text-align:center;
+text-align:justify;
+text-position: middle;
 padding:4%;
-position:static;
+position:absolute;
 overflow:hidden;
 }
 
