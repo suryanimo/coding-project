@@ -1,49 +1,54 @@
 ﻿#header {
-background-color:black; 
-color:#FF6600;
-text-align:center;
-text-align:justify;
-text-position: bottom;
-padding:6px;
-position:relative;
-font-family:"Kristen ITC"
-}
+	background-color:black; 
+	color:#FF6600;
+	text-align:center;
+	text-align:justify;
+	text-position: bottom;
+	padding:6px;
+	position:relative;
+	font-family:"Kristen ITC"
+	}
 
 #menu ul {
-list-style:none;
-margin:0px;
-padding:6px;
-overflow:auto;
-background-image:url('images/black dew wallpaper.jpg');
-background-repeat:repeat-x
-}
+	list-style:none;
+	margin:0px;
+	padding:6px;
+	overflow:auto;
+	background-image:url('images/black dew wallpaper.jpg');
+	background-repeat:repeat-x
+	}
 
 #menu li {
-font-family:"Kristen ITC";
-float:left;
-padding-left:20px;
-}
+	font-family:"Kristen ITC";
+	float:left;
+	padding-left:20px;
+	}
 
 #menu li a {
-display:table-cell;
-background-color:black;
-color:#FF9933;
-border-style:inset inset outset outset;
-text-align:center;
-padding:3px 16px;
-text-decoration:none;
-}
+	display:table-cell;
+	background-color:black;
+	color:#FF9933;
+	border-style:inset inset outset outset;
+	text-align:center;
+	padding:3px 16px;
+	text-decoration:none;
+	}
 
 form {
 	font-family:arial;
 	background-image:url('images/black dew wallpaper.jpg');
 	background-repeat:repeat-x;
 	padding:1% 0 2% 2%;
-}
+	}
 
 table {
-margin-bottom:2px;
-}
+	margin-bottom:2px;
+	}
+	
+#myCarousel {
+	margin-top:auto;
+	}
+	
 footer {
 	background-color:black;
 	color:#FF6600;
@@ -51,24 +56,27 @@ footer {
 	position:relative;
 	padding:2%;
 	clear:both;
-}
+	}
+
+footer a {
+	margin:0 2% 0 2%;
+	}
 
 .img {
 	float:left; 
 	margin:29px 20px 0px 0px;
 	border-radius: 3%;
-}
+	}
 
-.logo {
-	float:left;
-	position:relative;	
-	margin:1% 1% 5% 1%;
-	
 body {
 	background-image:url('images/black dew wallpaper.jpg');
-}
+	}
 
 .container {
- padding:5px 5px;
- width:100%;
- }
+ 	padding:0px 0px;
+ 	width:100%;
+ 	}
+ 	
+.item {
+	height:40%;		
+	}
