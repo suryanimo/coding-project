@@ -1,1 +1,12 @@
-﻿
+﻿.container {
+	width: 100%;
+}
+.gbrmenu {
+	float :left;
+	margin: 20px 20px 0 0;
+	border-radius : 1%;
+}
+.menu {
+	width :100%;
+	float: left;
+	padding:14px 16px;
