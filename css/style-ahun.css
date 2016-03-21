@@ -1,12 +1,33 @@
 ﻿.container {
 	width: 100%;
 }
-.gbrmenu {
+.img {
+	margin :5px;
+	border : 1px solid#ccc;
 	float :left;
-	margin: 20px 20px 0 0;
+	width: 100x;
 	border-radius : 1%;
 }
+.img img {
+	width :100x;
+	position :relative;
+}
 .menu {
-	width :100%;
-	float: left;
-	padding:14px 16px;
+	padding :10px;
+	text-align:justify;
+}
+footer {
+	background-color:black;
+	color:yellow;
+	text-align:center;
+	position:relative;
+	padding:3%;
+	clear:both;
+}
+
+.logo {
+	float: right;
+	position :relative;
+	margin: 0.2%;
+	border-radius : 18%;
+}
