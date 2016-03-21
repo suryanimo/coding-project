@@ -3,40 +3,29 @@
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
 <title>Coding Food Delivery </title>
-<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 <div class="container">
 
-	<div id="header">
-	<h1>
-	<img src="images/Logo CFD lengkap.jpg"/>
-	<text style="position:relative">Coding Food Delivery &copy; 
-	</text> 
-	</h1> 
-	</div>
+<div id="header">
+ <h1>
+	<img src="images/Logo CFD lengkap.jpg" align="middle"
+	/>
+	<strong><span class="auto-style3">Coding Food Delivery</span> &copy; 
+	</strong> 
+ </h1>
 
-<div id="menu">
-<ul>
-  <li>
-  <a href="home.html">Home</a>
-  </li>
-  
-  <li>
-  <a href="menu.html">Menu</a>
-  </li>
-  
-  <li>
-  <a href="aboutus.html">About Us</a>
-  </li>
-</ul>
-</div>
-
-<div> 
-<form>
-<table style="color:black">
+ <p>
+ <form>
+  <table style="color:#FF9933">
 	<tr>
 	<td> Name:
 	</td>
@@ -50,70 +39,142 @@
 	<td> <input name="Password1" type="password" />
 	</td>
 	</tr>
-</table>
-</form>
+   </table>
 
-<a href="menu.html"> 
+ <a href="menu.html"> 
 	</a>
-	<button style="background-color:#99CCCC"> 
-	<font color="gray">LOG IN</font>
+	<button style="background-color:#CCCCCC"> 
+	<font color="black">LOG IN</font>
 	</button>
 
-<a href="menu.html">
+ <a href="menu.html">
 	</a>
-	<button style="background-color:#99CCCC"> 
-	<font color="gray">SIGN UP</font>
+	<button style="background-color:#CCCCCC"> 
+	<font color="black">SIGN UP</font>
 	</button>
+   </form>
+  </p>
+ </div>
 
-</div>
+<div id="menu">
+<ul>
+  <li>
+  <a href="http://home.html">Home</a>
+  </li>
+  
+  <li>
+  <a href="menu.html">Menu</a>
+  </li>
+  
+  <li>
+  <a href="aboutus.html">About Us</a>
+  </li>
+ </ul>
+ </div>
 
-<div class="slides" style="max-width:500px">
+<div id="myCarousel" 
+	class="carousel slide" 
+	data-ride="carousel" data-interval="3000">
 <style>
-.mySlides {display:none;}
-</style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      height:auto; width: 50%;
+      margin: auto;
+  }
+  .auto-style1 {
+	font-size: small;
+}
+.auto-style2 {
+	font-size: x-small;
+}
+  .auto-style3 {
+	font-size: 30px;
+}
+  </style>
+  
+	<ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+ 	 </ol>
 
-<img class="slides" src="images/sop buntut.jpg"/>
-<img class="slides" src="images/nasi ayam bakar spesial.jpg"/>
-<img class="slides" src="images/burger.jpg"/>
+  	<div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/sop buntut.jpg" alt="sopbuntut"/>
+      <div class="carousel-caption">
+        <h3>Sop Buntut</h3>
+        <p>Dengan buntut sapi pilihan dengan bumbu racikan khusus</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/nasi ayam bakar spesial.jpg" alt="Nasiayam"/>
+      <div class="carousel-caption">
+        <h3>Nasi Ayam Bakar Spesial</h3>
+        <p>Daging ayam bumbu khusus yang dipanggang hingga meresap, disajikan dengan nasi, tempe dan tahu </p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/burger.jpg" alt="burger"/>
+      <div class="carousel-caption">
+        <h3>Burger</h3>
+        <p>Irisan daging sapi tidak berlemak dilapisi tomat, selada dan keju, disajikan dengan french fries</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/lasagna.jpg" alt="lasagna"/>
+      <div class="carousel-caption">
+        <h3>Lasagna</h3>
+        <p>Setiap lapisan pasta diisi dengan daging sapi cincang dalam saus tomat, bechamel dan keju mozarella, disajikan dengan salad</p>
+      </div>
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000);    
-	}
-</script>
 
 
 <footer>
-Copyright &copy; Coding Food Delivery &trade;
-<h6> Coding Food Delivery is a trademark company
-</h6>
-
-<a href="www.facebook.com/anitathe">
-<img class="logo" src="images/facebook.png" height="30px" width="30px"/> 
-</a>
-
-<a href="www.twitter.com/anitathe">
-<img class="logo" src="images/twitter.jpg" height="30px" width="30px"/>
-</a>
-
+	
 <a href="www.instagram.com/anitathe">
-<img class="logo" src="../coding_mums_repo/images/instagram.jpg" height="30px" width="30px"/>
-</a>
+	<i class="fa fa-instagram" 
+	style="font-size:36px;color:white">
+	</i></a>
+<a href="www.instagram.com/anitathe">
+	<i class="fa fa-facebook-official" 
+	style="font-size:36px;color:white">
+	</i></a>
+<a href="www.instagram.com/anitathe">
+	<i class="fa fa-tumblr-square" 
+	style="font-size:36px;color:white">
+	</i></a>
+
+<p class="auto-style1">
+	Copyright &copy; Coding Food Delivery&trade;
+	<h6 class="auto-style2"> 
+	Copyright 2016 Coding Food Delivery&trade;. All rights reserved.
+	 </h6>
+</p>
+
+	
+
 
 </footer>
+
 </div>
 </body>
 
 </html>
+
+ 
+

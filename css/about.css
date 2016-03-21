@@ -18,7 +18,7 @@
 #menu li {
 	font-family:"Kristen ITC";
 	float:left;
-	padding:15px 0 0 20px;
+	padding:15px 0 0 15px;
 	}
 
 #menu li a {
@@ -30,6 +30,16 @@
 	padding:3px 16px;
 	text-decoration:none;
 	}
+	
+.article{
+	text-align:left;
+	padding:15px 0 0 20px;
+	margin-top:auto;
+	margin-left:25px;
+	margin-right:auto;
+	margin-bottom:auto;
+	float:left
+}
 
 form {
 	font-family:arial;
@@ -50,7 +60,7 @@ footer {
 	color:#FF6600;
 	text-align:center;
 	position:inherit;
-	padding:1%;
+	padding:0.5%;
 	clear:both;
 	}
 
